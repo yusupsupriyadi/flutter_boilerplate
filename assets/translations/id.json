@@ -1,0 +1,19 @@
+{
+  "app_title": "Flutter Boilerplate",
+  "photos": {
+    "title": "Foto",
+    "offline": "Anda sedang offline",
+    "retry": "Coba lagi"
+  },
+  "onboarding": {
+    "skip": "Lewati",
+    "next": "Lanjut",
+    "done": "Selesai",
+    "page1_title": "Selamat datang",
+    "page1_body": "Template Flutter siap pakai dengan Riverpod dan utilitas penting.",
+    "page2_title": "Serba lengkap",
+    "page2_body": "Secure storage, networking, logging, konektivitas, dan cache gambar.",
+    "page3_title": "Mulai",
+    "page3_body": "Ganti fitur contoh dan mulai membangun aplikasi Anda."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "app_title": "Flutter Boilerplate",
+  "photos": {
+    "title": "Photos",
+    "offline": "You are offline",
+    "retry": "Retry"
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "next": "Next",
+    "done": "Done",
+    "page1_title": "Welcome",
+    "page1_body": "A ready-to-use Flutter template with Riverpod and the essentials.",
+    "page2_title": "Batteries included",
+    "page2_body": "Secure storage, networking, logging, connectivity and cached images.",
+    "page3_title": "Get started",
+    "page3_body": "Swap the example feature and start building your app."
+  }
+}
