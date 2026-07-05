@@ -7,6 +7,13 @@ metadata:
 ---
 # Implementing Routing and Deep Linking
 
+> **Integration with the layered Riverpod architecture:** Place the `GoRouter`
+> instance under `lib/core/` (e.g. `lib/core/router/`) and expose it via a
+> `@riverpod` provider so routes/redirects can read auth state from other
+> providers; bind it with `MaterialApp.router(routerConfig: ref.watch(...))`.
+> Routing is not enabled in the base boilerplate — add it when a feature needs
+> it. See `flutter-apply-architecture-best-practices`.
+
 ## Contents
 - [Core Concepts](#core-concepts)
 - [Workflow: Initializing the Application and Router](#workflow-initializing-the-application-and-router)

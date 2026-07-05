@@ -7,6 +7,11 @@ metadata:
 ---
 # Serializing JSON Manually in Flutter
 
+> **Integration with the layered Riverpod architecture:** These `fromJson`/
+> `toJson` classes are **API models** and live in `lib/data/models/`. Keep a
+> separate clean **domain model** in `lib/domain/models/` and map between them
+> inside the Repository. See `flutter-apply-architecture-best-practices`.
+
 ## Contents
 - [Core Guidelines](#core-guidelines)
 - [Workflow: Implementing a Serializable Model](#workflow-implementing-a-serializable-model)

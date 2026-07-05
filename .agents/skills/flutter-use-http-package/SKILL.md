@@ -7,6 +7,13 @@ metadata:
 ---
 # Implementing Flutter Networking
 
+> **Integration with the layered Riverpod architecture:** In this project the
+> raw network calls shown here belong in a **Service** (`lib/core/network/` or
+> `lib/data/services/`), exposed via a `@riverpod` provider. Wrap the response
+> in a **Repository** that maps API models to domain models, and surface it to
+> the UI through a Riverpod `AsyncNotifier` instead of a bare `FutureBuilder`.
+> See `flutter-apply-architecture-best-practices`.
+
 ## Contents
 - [Configuration & Permissions](#configuration--permissions)
 - [Request Execution & Response Handling](#request-execution--response-handling)

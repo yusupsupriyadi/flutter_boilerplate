@@ -7,6 +7,12 @@ metadata:
 ---
 # Internationalizing Flutter Applications
 
+> **Which approach does this boilerplate use?** This project is already wired for
+> i18n with **easy_localization** (JSON, runtime) — see
+> `flutter-setup-easy-localization`. This skill documents the alternative
+> **official** `flutter_localizations` + `intl` + ARB (codegen) approach. Pick
+> one per project; do not run both side by side.
+
 ## Contents
 - [Core Concepts](#core-concepts)
 - [Setup Workflow](#setup-workflow)
