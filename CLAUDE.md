@@ -44,6 +44,10 @@ This repo ships **project-local Flutter skills** under `.agents/skills/<name>/SK
 - Native assets (build-time generators, dev deps): `flutter_launcher_icons` (`dart run flutter_launcher_icons`) and `flutter_native_splash` (`dart run flutter_native_splash:create`). Config lives in `pubspec.yaml`; source images in `assets/icon/` and `assets/splash/` are build-time only (not bundled).
 - The repository is **not** a git repository. Do not assume git is available; the auto-commit/push workflow in the global CLAUDE.md does not apply here unless `git init` has been run first.
 
+## Dependency Docs (`docs/dependencies/`)
+
+Per-package docs live in `docs/dependencies/`: one `.md` per dependency (resolved version, why it's used here, where, and a real snippet from the codebase) plus `README.md` as the index. Consult these before adding, upgrading, or wiring a package. When adding a new dependency, add a matching `docs/dependencies/<package>.md` and a row in the index.
+
 ## Dart 3.12 dot-shorthand syntax
 
 This codebase uses Dart 3.12 **dot-shorthand** syntax (e.g. `lib/core/theme/app_theme.dart`, `lib/ui/`), where the type before a `.member` is inferred from context. This is intentional and valid — not a typo or missing identifier:
