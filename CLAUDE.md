@@ -42,6 +42,7 @@ This repo ships **project-local Flutter skills** under `.agents/skills/<name>/SK
 - Utilities: `flutter_secure_storage`, `shared_preferences`, `connectivity_plus`, `cached_network_image`, `logger`, `http`, `permission_handler`; `mocktail` for test mocks.
 - Localization: `easy_localization` (runtime JSON in `assets/translations/`, `.tr()`); onboarding via `introduction_screen`.
 - Native assets (build-time generators, dev deps): `flutter_launcher_icons` (`dart run flutter_launcher_icons`) and `flutter_native_splash` (`dart run flutter_native_splash:create`). Config lives in `pubspec.yaml`; source images in `assets/icon/` and `assets/splash/` are build-time only (not bundled).
+- App rebranding (dev dep): `package_rename` (`dart run package_rename`) rewrites app name + bundle/package id across all platforms from `package_rename_config` in `pubspec.yaml`. Run once when repurposing the boilerplate.
 - The repository is **not** a git repository. Do not assume git is available; the auto-commit/push workflow in the global CLAUDE.md does not apply here unless `git init` has been run first.
 
 ## Dependency Docs (`docs/dependencies/`)

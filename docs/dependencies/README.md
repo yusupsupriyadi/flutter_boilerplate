@@ -34,6 +34,7 @@ Versions are the resolved values from `pubspec.lock` (`pubspec.yaml` uses `^`). 
 | [riverpod_lint](riverpod_lint.md) | 3.1.0 | Lint | Riverpod-specific lints + assists |
 | [custom_lint](custom_lint.md) | 0.8.1 | Lint | Engine that runs `riverpod_lint` |
 | [mocktail](mocktail.md) | 1.0.5 | Test | Codegen-free mocks for unit tests |
+| [package_rename](package_rename.md) | 1.10.1 | Native asset | Renames app name + bundle id across platforms |
 | [flutter_native_splash](flutter_native_splash.md) | 2.4.8 | Native asset | Generates native splash screens |
 | [flutter_launcher_icons](flutter_launcher_icons.md) | 0.14.4 | Native asset | Generates launcher icons |
 
